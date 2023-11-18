@@ -1,0 +1,99 @@
+:root {
+    --first-primary-color: #ffffff;
+    --second-primary-color: #2b7fff;
+    --third-primary-color: #011c44;
+}
+/* Base */
+body {
+    color: var(--third-primary-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+}
+/* Header */
+ul {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+    color: var(--third-primary-color);
+}
+.link:hover {
+    color: var(--second-primary-color);
+    font-weight: 700;
+}
+span {
+    color: var(--second-primary-color);
+}
+/* Main */
+/* Section first */
+h1 {
+    color: var(--second-primary-color);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Play';
+    font-size: 140px;
+    line-height: 0.8;
+}
+.button {
+    color: var(--first-primary-color);
+    background-color: var(--second-primary-color);
+    border: none;
+    border-radius: 32px;
+    font-weight: 600;
+}
+.first-section-p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* Section second */
+h2 {
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+}
+.title-capitalize {
+    text-transform: capitalize;
+}
+.second-section-span {
+    color: var(--third-primary-color);
+    font-weight: 600;
+}
+#second-section p {
+    font-size: 22px;
+    line-height: 1.7;
+}
+/* Section fourth */
+.fourth-section-card {
+    color: var(--first-primary-color);
+}
+#fourth-section p {
+    font-size: 22px;
+    line-height: 1.4;
+}
+/* Section fiveth */
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#fiveth-section p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* Footer */
+footer {
+    font-size: 16px;
+    line-height: 1.2;
+}
+.address {
+    font-style: normal;
+} 
+.color-first {
+    color: var(--first-primary-color); 
+}
+footer p {
+    font-size: 13px;
+}
