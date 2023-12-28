@@ -18,7 +18,7 @@
                     <li><a class="link" href="#second-section">Про нас</a></li>
                     <li><a class="link" href="#third-section">Чому ми</a></li>
                     <li><a class="link" href="#fourth-section">Наші процедури</a></li>
-                    <li><a class="link" href="#fivethsection">Контакти</a></li>
+                    <li><a class="link" href="#fifth-section">Контакти</a></li>
                 </ul>
                 <ul class="header-menu">                    
                     <li>
@@ -35,23 +35,23 @@
         </div>
     </header>
     <main>
-        <section class="first-section">
+        <section id="first-section" class="first-section">
             <div class="container first-section-container">
                 <div class="first-section-first-text">
                     <p class="first-section-first-text-p">Косметологічна клініка</p>
                     <h1 class="first-section-first-text-h">beauty zone</h1>
                 </div>
                 <div class="first-section-second-text">
-                    <button class="button first-section-second-text-button" type="button">Замовити дзвінок</button>
+                    <button class="button first-section-second-text-button modal-btn-open" type="button">Замовити дзвінок</button>
                     <p class="first-section-text-second-text-accent">Запишись та отримай безкоштовну консультацію нашого косметолога</p>
                 </div>
             </div>
         </section>
-        <section class="section-background"></section>
-        <section class="second-section">
+        <section  class="section-background"></section>
+        <section id="second-section" class="second-section">
             <div class="container second-section-container">
                 <div class="second-section-text">
-                    <h2 class="second-section-text-title">Перевтілюйтесь в <span class="second-section-text-title-capitalize">beauty zone!</span></h2>
+                    <h2 class="second-section-text-title title">Перевтілюйтесь в <span class="second-section-text-title-capitalize">beauty zone!</span></h2>
                     <p class="second-section-text-p">Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла.</p>
                     <p class="second-section-text-p">B <span class="second-section-span">beauty zone</span> ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. З нами краса назавжди!</p>
                 </div>
@@ -61,9 +61,9 @@
                 </div>
             </div>
         </section>
-        <section class="third-section">
+        <section id="third-section"  class="third-section">
             <div class="container third-section-container">
-                <h2 class="third-section-container-title">Чому люди <span>обирають нас</span></h2>
+                <h2 class="third-section-text-title title">Чому люди <span>обирають нас</span></h2>
                 <div class="third-section-cards">
                     <div class="third-section-card">
                         <img src="./images/galaxy.png" alt="galaxy">
@@ -80,9 +80,9 @@
                 </div>
             </div>
         </section>
-        <section class="fourth-section">
+        <section id="fourth-section" class="fourth-section">
             <div class="container fourth-section-container">
-                <h2 class="fourth-section-container-title">Наші <span>процедури</span></h2>
+                <h2 class="title">Наші <span>процедури</span></h2>
                 <div class="fourth-section-slider">
                     <button type="button" class="fourth-section-button carousel-button carousel-button-prev prev">
                         <svg class="carousel-button-arrow" width="18" height="18">
@@ -145,31 +145,31 @@
                 </div>
             </div>
         </section>
-        <section class="fifth-section">
+        <section id="fifth-section" class="fifth-section">
             <div class="fifth-section-container container">
-                <h2 class="fifth-section-container-title">Як нас <span>знайти</span></h2>
+                <h2 class="title">Як нас <span>знайти</span></h2>
                 <div class="fifth-section-content">
                     <iframe class="fifth-section-content-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7224.5905490835585!2d30.517657063272416!3d50.441660997938946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2sTarasa%20Shevchenko%20Blvd%2C%205%2C%20Kyiv%2C%20Ukraina%2C%2002000!5e0!3m2!1spl!2spl!4v1700222969985!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="fifth-section-content-text">
-                        <h3 class="fifth-section-content-title">Запишіться <span> безкоштовно</span> та отримайте подарунок</h3>
-                        <form class="fifth-section-form">
-                            <div class="fifth-section-form-field input">
+                    <div class="fifth-section-content-text form-container">
+                        <h3 class="form-container-title">Запишіться <span> безкоштовно</span> та отримайте подарунок</h3>
+                        <form class="form-container-form form">
+                            <div class="form-field input">
                                 <label class="input-label visually-hidden" for="user-name">Ім'я</label>
                                 <input class="input-control" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище">
                             </div>
-                            <div class="fifth-section-form-field input">
+                            <div class="form-field input">
                                 <label class="input-label visually-hidden" for="user-name">Ім'я</label>
                                 <input class="input-control" type="tel" name="user-phone" id="user-phone" placeholder="Ваш номер телефону">
                             </div>
-                            <div class="fifth-section-form-field input">
+                            <div class="form-field input">
                                 <label class="input-label visually-hidden" for="user-name">Ім'я</label>
                                 <input class="input-control" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта">
                             </div>
-                            <div class="fifth-section-form-btn">
-                                <button class="button fifth-section-form-button" type="submit">Записатись безкоштовно</button>
-                                <p class="fifth-section-form-pp">Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+                            <div class="form-btn">
+                                <button class="button form-btn-button" type="submit">Записатись безкоштовно</button>
+                                <p class="form-btn-pp">Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
                             </div>
-                        </form>
+                        </form> 
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                     <li><a class="link color-first" href="#third-section">Чому ми</a></li>
                     <li><a class="link color-first" href="#second-section">Про нас</a></li>
                     <li><a class="link color-first" href="#fourth-section">Наші процедури</a></li>
-                    <li><a class="link color-first" href="#fiveth-section">Контакти</a></li>
+                    <li><a class="link color-first" href="#fifth-section">Контакти</a></li>
                 </ul>
             </nav>
             <address class="footer-container-address address">
@@ -213,6 +213,39 @@
         </div>
     </footer>
 
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button class="modal-btn-close modal-button" type="button">
+                <img src="../images/icon-close.svg" alt="close">
+            </button>
+            <div class="modal-container">
+                <h2 class="modal-container-title-h2">Замовити дзвінок</h2>
+                <div class="modal-form form-container">
+                    <h3 class="form-container-title">Запишіться <span> безкоштовно</span> та отримайте подарунок</h3>
+                    <form class="form-container-form form">
+                        <div class="form-field input">
+                            <label class="input-label visually-hidden" for="user-name">Ім'я</label>
+                            <input class="input-control" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище">
+                        </div>
+                        <div class="form-field input">
+                            <label class="input-label visually-hidden" for="user-name">Ім'я</label>
+                            <input class="input-control" type="tel" name="user-phone" id="user-phone" placeholder="Ваш номер телефону">
+                        </div>
+                        <div class="form-field input">
+                            <label class="input-label visually-hidden" for="user-name">Ім'я</label>
+                            <input class="input-control" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта">
+                        </div>
+                        <div class="form-btn">
+                            <button class="button form-btn-button" type="submit">Записатись безкоштовно</button>
+                            <p class="form-btn-pp">Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/is-hidden.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/fourth-section.js"></script>
 </body>
