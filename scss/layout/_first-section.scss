@@ -1,0 +1,52 @@
+.first-section {
+    position: relative;
+    background-image: url('../images/background-image-first-section.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    padding: 126px 0 110px;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 528px;
+        height: 408px;
+        left: 206px;
+        margin: 0 0;
+        gap: 40px;
+    }
+    &__first-text{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        &--p{
+            margin: 0;
+        }
+        &--h{
+            color: var(--second-primary-color);
+            text-transform: capitalize;
+            font-weight: 700;
+            font-family: 'Play';
+            font-size: 140px;
+            line-height: 0.8;
+            margin: 0;
+        }
+    }
+    &__second-text{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        &--button{
+            width: 218px;
+            &:hover{
+                color: var(--third-primary-color);
+            }
+        }
+        &--accent{
+            font-size: 12px;
+            line-height: 1.5;
+            width: 238px;
+            padding: 0 12px;
+        }
+    }
+}

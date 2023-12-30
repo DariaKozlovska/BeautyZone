@@ -1,0 +1,25 @@
+.fifth-section{
+    &__container{
+        width: 1058px;
+        margin: 0 auto 96px;
+        position: relative;
+        z-index: 1; 
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        &--map{
+            border-radius: 32px;
+            height: 482px;
+        } 
+        &--text{
+            background-image: url("../images/background-fifth-section.png");
+            background-color: var(--third-primary-color);
+            width: 422px;
+            height: 482px;
+            padding: 48px 56px;
+        }  
+    }
+}

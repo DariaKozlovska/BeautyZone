@@ -1,0 +1,32 @@
+body {
+    color: var(--third-primary-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+span {
+    color: var(--second-primary-color);
+}
+a {
+    text-decoration: none;
+    color: var(--third-primary-color);
+    
+    &:hover{
+        color: var(--second-primary-color);
+    }
+}
+.color-first {
+    color: var(--first-primary-color); 
+}

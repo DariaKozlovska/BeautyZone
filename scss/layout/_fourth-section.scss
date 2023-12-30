@@ -1,0 +1,23 @@
+.fourth-section{
+    &__container{
+        width: 1220px;
+        margin: 0 auto;
+        padding-bottom: 96px;
+    }
+    &__slider{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__cards{
+        margin-left: 16px;
+        overflow: hidden;
+    }
+    &__list{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,13 @@
+.form__btn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 280px;
+    gap: 8px;
+    &--pp{
+        color:rgba(116, 114, 114, 1);
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
+    }
+}

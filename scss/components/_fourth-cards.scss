@@ -1,0 +1,32 @@
+.fourth-cards{
+    &__card{
+        position: relative;
+        width: 344px;
+        height: 456px;
+        border-radius: 4px 120px;
+        background-image: linear-gradient(
+            180.05deg,
+        rgba(1, 28, 68, 0) 48.53%,
+        rgba(1, 28, 68, 0.725825) 84.61%,
+        #011C44 101.39%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        &--image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 4px 120px;
+        }
+        &--text{
+            font-size: 22px;
+            color: var(--first-primary-color);
+            width: 150px;
+            text-align: center;
+            position: absolute;
+            left: 115px;
+        }
+    }
+}
