@@ -1,49 +1,104 @@
 .footer {
-    background-image: url("../images/background-footer.png");
-    background-color: var(--third-primary-color);
-    font-size: 16px;
-    line-height: 1.2;
+  background-image: url("../images/background-footer.png");
+  background-color: var(--third-primary-color);
+  font-size: 16px;
+  line-height: 1.2;
 
-    &__container{
-        width: 1240px;
-        padding: 56px 0;
-        display: flex;
-        justify-content: space-between;
-        gap: 186px;
+  &__logo {
+    width: 53px;
+    @media screen and (min-width: $bp-tablet) {
+      width: 73px;
     }
-    &__nav{
-        display: flex;
-        justify-content: space-between;
-        gap: 186px;
+  }
 
-        &--list{
-            display:flex;
-            flex-direction: column;
-            width: 200px;
-            gap: 16px;
-        }
+  &__container {
+    width: fit-content;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 100%;
+      padding: 56px 20px;
+      flex-direction: row;
+      @media screen and (min-width: $bp-desktop) {
+        padding: 56px 100px;
+        margin: 0 auto;
+      }
     }
-    &__address{
-        display: flex;
-        justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 42px;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      font-size: 14px;
+      gap: 70px;
+      @media screen and (min-width: $bp-desktop) {
         gap: 186px;
-        font-style: normal;
+        font-size: 16px;
+      }
+    }
 
-        &--list{
-            display:flex;
-            flex-direction: column;
-            width: 200px;
-            gap: 16px;
-            &-icons{
-                display: flex;
-                flex-direction: row;
-                gap: 24px;
+    &--list {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      gap: 16px;
+      @media screen and (min-width: $bp-tablet) {
+        text-align: left;
+      }
+    }
+  }
+  &__address {
+    display: flex;
+    font-style: normal;
+    margin: 0 auto;
+    gap: 20px;
+    @media screen and (min-width: $bp-tablet) {
+      margin: 0;
+      justify-content: space-between;
+      gap: 70px;
+      @media screen and (min-width: $bp-desktop) {
+        gap: 186px;
+      }
+    }
+
+    &--list {
+      display: none;
+      @media screen and (min-width: $bp-tablet) {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        gap: 16px;
+        &-icons {
+          display: flex;
+          flex-direction: row;
+          gap: 24px;
+          margin: 0 auto;
+          img {
+            width: 30px;
+            height: 30px;
+            @media screen and (min-width: $bp-desktop) {
+              width: 42px;
+              height: 42px;
             }
+          }
         }
-        &--content{
-            font-size: 13px;
-            color: rgba(116, 114, 114, 1);
+        @media screen and (min-width: $bp-desktop) {
+          font-size: 16px;
         }
+      }
     }
+    &--content {
+      font-size: 13px;
+      color: rgba(116, 114, 114, 1);
+    }
+  }
 }
-

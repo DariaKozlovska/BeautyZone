@@ -22,6 +22,7 @@ span {
 a {
     text-decoration: none;
     color: var(--third-primary-color);
+    scroll-behavior: smooth;
     
     &:hover{
         color: var(--second-primary-color);

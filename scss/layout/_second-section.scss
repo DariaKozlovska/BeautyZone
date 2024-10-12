@@ -1,49 +1,65 @@
-.second-section{
-    &__container{
-        display: flex;
-        justify-content: space-between;
-        gap: 32px;
-        padding: 0 100px 172px;
+.second-section {
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 20px 50px;
+    @media screen and (min-width: $bp-desktop) {
+      padding: 40px 100px 140px;
     }
-    &__text{
-        width: 710px;
-        &--title{
-            text-align: center;
-            &-capitalize{
-                text-transform: capitalize;
-            }
-        }
-        &--p{
-            font-size: 'Roboto';
-            font-weight: 200;
-            font-size: 22px;
-            line-height: 1.7;
-        }
+  }
+  &__text {
+    width: 100%;
+    @media screen and (min-width: $bp-desktop) {
+      width: 710px;
     }
-    &__span{
-        color: var(--third-primary-color);
+    &--title {
+      text-align: left !important;
+      &-capitalize {
         text-transform: capitalize;
-        font-weight: 600;
+      }
     }
-    &__photos{
-        width: 500px;
-        height: 696px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        &--first{
-            border-radius: 50%;
-            width: 326px;
-            height: 326px;
-            box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.2);
-        }
-        &--second{
-            position: relative;
-            border-radius: 50%;
-            width: 326px;
-            height: 326px;
-            left: 172px;
-            box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.2);
-        }
+    &--p {
+      font-size: 18px;
+      font-family: "Roboto";
+      font-weight: 200;
+      margin: 0;
+      line-height: 1.7;
+      @media screen and (min-width: $bp-tablet) {
+        font-size: 22px;
+        margin: 10px 0;
+      }
     }
+  }
+  &__span {
+    color: var(--third-primary-color);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  &__photos {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      width: 500px;
+      height: 696px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      &--first {
+        border-radius: 50%;
+        width: 326px;
+        height: 326px;
+        box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.2);
+      }
+      &--second {
+        position: relative;
+        border-radius: 50%;
+        width: 326px;
+        height: 326px;
+        left: 172px;
+        box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.2);
+      }
+    }
+  }
 }
